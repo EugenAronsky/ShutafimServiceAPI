@@ -1,0 +1,6 @@
+@ShutafimService_HostAddress = http://localhost:5054
+
+GET {{ShutafimService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

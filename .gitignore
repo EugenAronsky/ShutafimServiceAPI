@@ -1,0 +1,50 @@
+## Build artifacts
+bin/
+obj/
+[Ll]og/
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider & VS Code
+.idea/
+.vscode/
+*.code-workspace
+
+## ASP.NET specific
+appsettings.*.json
+appsettings.Development.json
+secrets.json
+
+## Dotnet-specific
+*.dbmdl
+*.pdb
+*.cache
+*.dll
+*.exe
+*.nupkg
+*.snupkg
+
+## Others
+*.vs/
+*.DS_Store
+*.swp
+Thumbs.db
+
+## Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+## NuGet
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+
+## EF Core Migrations snapshots (optional)
+*Migrations/*Designer.cs
